@@ -1,0 +1,25 @@
+<button class="material-icons" aria-label="Close">close</button>
+<h2>Nova Aplicacao</h2>
+<mat-divider></mat-divider>
+<mat-form-field appearance="fill">
+  <mat-label>Nome Aplicacao</mat-label>
+  <input matInput placeholder="JobManager" />
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Sistema</mat-label>
+  <mat-select>
+    <mat-option value="1">SegPag</mat-option>
+    <mat-option value="2">SegLabs</mat-option>
+    <mat-option value="3">SegImob</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Url da Aplicacão</mat-label>
+  <input type="url" matInput placeholder="localhost:6001" />
+  <span matPrefix>https://&nbsp;</span>
+  <span matSuffix>/</span>
+</mat-form-field>
+
+<br />
